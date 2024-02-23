@@ -1,0 +1,17 @@
+// for build service image
+docker-compose build
+docker build -t [app-name] .
+
+docker image ls = list docker build image
+common used options
+ls,
+
+docker run [app-name]
+
+// for web service
+docker run -p 8080:80 [app-name]
+
+// for run docker service with php accept command line argument
+docker run [app-name] php [file-name] [argument]
+
+
